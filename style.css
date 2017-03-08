@@ -9,7 +9,7 @@ html, body{
   justify-content: center;
   align-items: center;
 
-  background-color: #ecf0f1;
+  background-color: #fff;
 
   font-family: 'Fira Sans'
 
@@ -18,5 +18,17 @@ html, body{
 .name h1{
   margin: 0;
   padding: 0;
-  font-size: 60px;
+  font-size: 45px;
+  color: #3e3e3e
+}
+
+@media all and (max-width: 620px){
+
+  .name{
+    width: 300px;
+  }
+
+  .name h1{
+    text-align: center;
+  }
 }
