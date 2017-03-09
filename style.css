@@ -1,38 +1,39 @@
 html, body{
   margin: 0;
   padding: 0;
+  --main-blue: #039BE5;
 }
+
 .home{
   display: flex;
   width: 100vw;
   height: 100vh;
   justify-content: center;
-  align-items: center;
 
   background-color: #fff;
-
   font-family: 'Sansita', sans-serif;
-
 }
 
-.name h1{
+.wrap-logo{
+  text-align: center;
+}
+
+.wrap-logo h1{
   margin: 0;
   padding: 0;
+  margin-top: 150px;
   font-size: 50px;
-  color: #090909
+  color: #090909;
+  cursor: pointer;
 }
 
-.dot{
-  color: #3498db;
+.wrap-logo .dot{
+  color: var(--main-blue);
 }
 
 @media all and (max-width: 340px){
-
-  .name{
+  .wrap-logo{
     width: 200px;
   }
 
-  .name h1{
-    text-align: center;
-  }
 }
