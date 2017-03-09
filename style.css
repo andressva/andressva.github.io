@@ -11,21 +11,25 @@ html, body{
 
   background-color: #fff;
 
-  font-family: 'Fira Sans'
+  font-family: 'Sansita', sans-serif;
 
 }
 
 .name h1{
   margin: 0;
   padding: 0;
-  font-size: 45px;
-  color: #3e3e3e
+  font-size: 50px;
+  color: #090909
 }
 
-@media all and (max-width: 620px){
+.dot{
+  color: #3498db;
+}
+
+@media all and (max-width: 340px){
 
   .name{
-    width: 300px;
+    width: 200px;
   }
 
   .name h1{
